@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    background-color: #d1ecf3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    padding: 30px;
+    background: #aed4df;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.8);
+    border:2px solid #858181;
+}
+
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float:right
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(228, 222, 222);
+    color:#0a0a0a
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-shadow:0 5px 2px #918383d8;
+
+}
+
+button {
+    padding: 10px 18px;
+    border:2px solid #0841ac;
+    background-color: #2124f1e0;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(40, 40, 56, 0.575);
+    float:right;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#toggle-skills li{
+    background:#aedce6 ;
+    border:2px solid #959999;
+    box-shadow:0 2px 10px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    list-style: none;
+}
